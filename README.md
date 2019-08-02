@@ -1,4 +1,4 @@
-# Toward Variable-Rate Generative Compression by Reducing the Channel Redundancy
+###Toward Variable-Rate Generative Compression by Reducing the Channel Redundancy
 
 TensorFlow Implementation for paper "Toward Variable-Rate Generative Compression by Reducing the Channel Redundancy".
 The code is based on the implementation [https://github.com/Justin-Tan/generative-compression.git](Justin-Tan)  of method [Generative Adversarial Networks for Extreme Learned Image Compression](https://arxiv.org/abs/1804.02958). The arithmetic-coding is modified from [https://www.nayuki.io/page/reference-arithmetic-coding](https://www.nayuki.io/page/reference-arithmetic-coding). The tensorflow version of VGG comes from [https://github.com/machrisaa/tensorflow-vgg.git].
