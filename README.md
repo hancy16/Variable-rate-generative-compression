@@ -16,8 +16,8 @@ Training was done using the [ADE 20k dataset](http://groups.csail.mit.edu/vision
 ## Usage
 ```bash
 # Clone
-$ git clone
-$ cd 
+$ git clone git@github.com:hancy16/Variable-rate-generative-compression.git
+$ cd variable-rate_compression
 
 #Training
 $ python3 train.py -h
@@ -29,6 +29,8 @@ $ python3 train.py -opt momentum --name my_network
 # Compress
 $ python3 compress.py  --name my_network -r /path/to/model/checkpoint
 ```
+##Quantized PCA
+The code for quantized PCA is available at quantized_PCA/
 
 ##Environments 
 The code is running on 4 TITAN XP GPUs. Modify the gpu_num in the script to change the number of GPUs.
