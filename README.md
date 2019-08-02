@@ -29,10 +29,10 @@ $ python3 train.py -opt momentum --name my_network
 # Compress
 $ python3 compress.py  --name my_network -r /path/to/model/checkpoint
 ```
-###Quantized PCA
+### Quantized PCA
 The code for quantized PCA is available at quantized_PCA/
 
-###Environments 
+### Environments 
 The code is running on 4 TITAN XP GPUs. Modify the gpu_num in the script to change the number of GPUs.
 
 
