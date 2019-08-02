@@ -1,7 +1,7 @@
-##Toward Variable-Rate Generative Compression by Reducing the Channel Redundancy
+# Toward Variable-Rate Generative Compression by Reducing the Channel Redundancy
 
-*TensorFlow Implementation for paper "Toward Variable-Rate Generative Compression by Reducing the Channel Redundancy".
-The code is based on the implementation [https://github.com/Justin-Tan/generative-compression.git](Justin-Tan)  of method [Generative Adversarial Networks for Extreme Learned Image Compression](https://arxiv.org/abs/1804.02958). The arithmetic-coding is modified from [https://www.nayuki.io/page/reference-arithmetic-coding](https://www.nayuki.io/page/reference-arithmetic-coding). The tensorflow version of VGG comes from [https://github.com/machrisaa/tensorflow-vgg.git].
+TensorFlow Implementation for paper "Toward Variable-Rate Generative Compression by Reducing the Channel Redundancy". The code is based on the implementation [https://github.com/Justin-Tan/generative-compression.git](Justin-Tan)  of method [Generative Adversarial Networks for Extreme Learned Image Compression](https://arxiv.org/abs/1804.02958). The arithmetic-coding is modified from [https://www.nayuki.io/page/reference-arithmetic-coding](https://www.nayuki.io/page/reference-arithmetic-coding). The tensorflow version of VGG comes from [https://github.com/machrisaa/tensorflow-vgg.git].
+
 -----------------------------
 ### Dependencies
 * Python 3.6
@@ -29,10 +29,10 @@ $ python3 train.py -opt momentum --name my_network
 # Compress
 $ python3 compress.py  --name my_network -r /path/to/model/checkpoint
 ```
-##Quantized PCA
+###Quantized PCA
 The code for quantized PCA is available at quantized_PCA/
 
-##Environments 
+###Environments 
 The code is running on 4 TITAN XP GPUs. Modify the gpu_num in the script to change the number of GPUs.
 
 
