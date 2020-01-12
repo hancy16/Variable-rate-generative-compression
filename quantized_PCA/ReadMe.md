@@ -2,7 +2,7 @@ Quantized PCA for variable-rate compression and tsne-visualization for different
 
 ##Usage
 All scripts needed is included in test_pca.py.
-More detailed scripts will be releasing soon.
+More detailed scripts will be released soon.
 
 1. Save the latent representations generated in the autoencoder network into numpy files and obtain the training data (split needed).
 
