@@ -35,5 +35,6 @@ The code for quantized PCA is available at quantized_PCA/
 ### Environments 
 The code is running on 4 TITAN XP GPUs. Modify the gpu_num in the script to change the number of GPUs.
 
+The complete version will be released as soon as possible.
 
 
