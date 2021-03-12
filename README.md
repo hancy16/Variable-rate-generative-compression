@@ -37,7 +37,7 @@ When reconstructing images using quantized PCA, change the model.py with model_p
 ### Environments 
 The code is running on 4 TITAN XP GPUs. Modify the gpu_num in the script to change the number of GPUs.
 
-##Citation
+### Citation
 Please consider citing
 
   @article{han2020toward,
