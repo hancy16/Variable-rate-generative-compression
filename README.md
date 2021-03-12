@@ -30,7 +30,7 @@ $ python3 train.py -opt momentum --name my_network
 # Compress
 $ python3 compress.py  --name my_network -r /path/to/model/checkpoint
 ```
-###Results
+### Results
 Part of the results are given in results/
 
 ### Quantized PCA
