@@ -37,6 +37,16 @@ When reconstructing images using quantized PCA, change the model.py with model_p
 ### Environments 
 The code is running on 4 TITAN XP GPUs. Modify the gpu_num in the script to change the number of GPUs.
 
-The complete version will be released as soon as possible.
+Please consider citing 
+@article{han2020toward,
+  title={Toward Variable-Rate Generative Compression by Reducing the Channel Redundancy},
+  author={Han, Chaoyi and Duan, Yiping and Tao, Xiaoming and Xu, Mai and Lu, Jianhua},
+  journal={IEEE Transactions on Circuits and Systems for Video Technology},
+  volume={30},
+  number={7},
+  pages={1789--1802},
+  year={2020},
+  publisher={IEEE}
+}
 
 
