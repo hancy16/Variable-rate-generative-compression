@@ -32,6 +32,7 @@ $ python3 compress.py  --name my_network -r /path/to/model/checkpoint
 ```
 ### Quantized PCA
 The code for quantized PCA is available at quantized_PCA/
+When reconstructing images using quantized PCA, change the model.py with model_pca.py
 
 ### Environments 
 The code is running on 4 TITAN XP GPUs. Modify the gpu_num in the script to change the number of GPUs.
