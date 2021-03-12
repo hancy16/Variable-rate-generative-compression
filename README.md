@@ -30,6 +30,9 @@ $ python3 train.py -opt momentum --name my_network
 # Compress
 $ python3 compress.py  --name my_network -r /path/to/model/checkpoint
 ```
+###Results
+Part of the results are given in results/
+
 ### Quantized PCA
 The code for quantized PCA is available at quantized_PCA/
 When reconstructing images using quantized PCA, change the model.py with model_pca.py
